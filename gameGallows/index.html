@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>Gallows</title>
+    </head>
+
+    <body>
+        <div id='wrap'>
+            <div id='gameName'>
+                <img id='animationImg' src='unnamed.jpg'/>
+                <h1 id='animationH'>Gallows</h1>
+                <a id ='begin' href=''>Begin new game</a>
+                <a id ='exit' href=''>Exit</a>
+            </div>
+            
+            <div id='form'>
+                <div id='shema'><p id='word'></p></div>
+                <form id ='form1'>
+                    <label>Input a letter:<input type = 'text' name='letter' id='letter'></label>
+                    <input type ='submit' value='Ready'/><br/>
+                    <span id="message"></span>
+                </form>
+                <p id='count'></p>
+            </div>
+            <div id ="all">
+            </div>
+            
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
